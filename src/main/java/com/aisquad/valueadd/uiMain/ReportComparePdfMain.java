@@ -14,7 +14,9 @@ public class ReportComparePdfMain
             final CompareResult result = new PdfComparator<>(
                     "C:\\Raja\\IdeaProjects\\AiSquadReportCompare\\input\\அப்பா_src.pdf",
                     "C:\\Raja\\IdeaProjects\\AiSquadReportCompare\\input\\அப்பா_tgt.pdf").compare();
-            if (result.isNotEqual()) {
+            if (result.hasDifferenceInExclusion()) {
+                System.out.println("Only Differences in excluded areas found!");
+            }else if (result.isNotEqual()) {
                 System.out.println("Differences found!");
                 if(result.writeTo("C:\\Raja\\IdeaProjects\\AiSquadReportCompare\\output\\diffOutput.pdf"))
                 {
@@ -23,13 +25,10 @@ public class ReportComparePdfMain
                 {
                     System.out.println("Error While writing into file.");
                 }
-            }
-            if (result.isEqual()) {
+            }else { //         if (result.isEqual()) {
                 System.out.println("No Differences found!");
             }
-            if (result.hasDifferenceInExclusion()) {
-                System.out.println("Only Differences in excluded areas found!");
-            }
+
         } catch (IOException e) {
             e.printStackTrace();
         }
