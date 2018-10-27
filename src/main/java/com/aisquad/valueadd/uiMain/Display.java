@@ -161,9 +161,9 @@ public class Display {
         });
         toolBar.add(actualButton);
         buttonGroup.add(actualButton);
-        frame.setTitle("AISqUAD - Report Comparator !");
-        ImageIcon i = new ImageIcon("src\\main\\resources\\CognizantIcon.jpg");
-        frame.setIconImage(i.getImage());
+        frame.setTitle("Report Comparator !");
+//        ImageIcon i = new ImageIcon("src\\main\\resources\\CognizantIcon.jpg");
+//        frame.setIconImage(i.getImage());
         frame.setVisible(true);
     }
 
