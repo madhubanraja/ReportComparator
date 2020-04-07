@@ -1,0 +1,23 @@
+C:\Users\madhu\OneDrive\Documents\GitHub\ReportComparator\SourcePDFs\Appa_Haikooo_src.pdf
+C:\Users\madhu\OneDrive\Documents\GitHub\ReportComparator\TargetPDFs\Appa_Haikooo_tgt.pdf
+15:43:09.436 [Diff-3-thread-1] INFO com.aisquad.valueadd.reportcompare.pdf.DiffImage - Differences found at { page: 1, x1: 0, y1: 0, x2: 3299, y2: 3299 }
+15:43:09.889 [Diff-3-thread-1] INFO com.aisquad.valueadd.reportcompare.pdf.DiffImage - Differences found at { page: 2, x1: 0, y1: 0, x2: 3299, y2: 3299 }
+15:43:10.217 [Diff-3-thread-1] INFO com.aisquad.valueadd.reportcompare.pdf.DiffImage - Differences found at { page: 3, x1: 0, y1: 0, x2: 3299, y2: 3299 }
+15:43:10.561 [Diff-3-thread-1] INFO com.aisquad.valueadd.reportcompare.pdf.DiffImage - Differences found at { page: 4, x1: 0, y1: 0, x2: 3299, y2: 3299 }
+Differences found!
+
+C:\Users\madhu\OneDrive\Documents\GitHub\ReportComparator\SourcePDFs\Appa_src_image.pdf
+C:\Users\madhu\OneDrive\Documents\GitHub\ReportComparator\TargetPDFs\Appa_tgt_image.pdf
+15:43:14.731 [Diff-6-thread-1] INFO com.aisquad.valueadd.reportcompare.pdf.DiffImage - Differences found at { page: 1, x1: 300, y1: 300, x2: 2249, y2: 701 }
+Differences found!
+
+C:\Users\madhu\OneDrive\Documents\GitHub\ReportComparator\SourcePDFs\APPA_src.pdf
+C:\Users\madhu\OneDrive\Documents\GitHub\ReportComparator\TargetPDFs\APPA_tgt.pdf
+15:43:17.216 [Diff-9-thread-1] INFO com.aisquad.valueadd.reportcompare.pdf.DiffImage - Differences found at { page: 1, x1: 302, y1: 311, x2: 1111, y2: 361 }
+15:43:17.716 [Diff-9-thread-1] INFO com.aisquad.valueadd.reportcompare.pdf.DiffImage - Differences found at { page: 3, x1: 299, y1: 2824, x2: 2249, y2: 2927 }
+Differences found!
+
+C:\Users\madhu\OneDrive\Documents\GitHub\ReportComparator\SourcePDFs\APPA_src.pdf
+C:\Users\madhu\OneDrive\Documents\GitHub\ReportComparator\SourcePDFs\APPA_src.pdf
+No Differences found!
+
